@@ -16,6 +16,7 @@
 		<junitVersion>4.13.2</junitVersion>
 		<logbackVersion>1.4.14</logbackVersion>
 		<apacheCommonsLangVersion>3.13.0</apacheCommonsLangVersion>
+		<failBuildOnCVSS>7</failBuildOnCVSS>
 	</properties>
 
 	<modules>
@@ -98,7 +99,6 @@
 				<artifactId>dependency-check-maven</artifactId>
 				<version>8.4.0</version>
 				<configuration>
-					<failBuildOnCVSS>7</failBuildOnCVSS>
 					<suppressionFiles>
 						<suppressionFile>.nvd-suppressions.xml</suppressionFile>
 					</suppressionFiles>
