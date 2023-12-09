@@ -7,3 +7,6 @@ target
 .project
 core/doc
 toolkit/doc
+
+#testng generated
+test-output
